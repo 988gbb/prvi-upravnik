@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ["~/assets/styles/main.css"],
   app: {
     head: {
-      title: "upravnikplus.rs | Profesionalno upravljanje zgradama",
+      title: "prvi upravnik.rs | Profesionalno upravljanje zgradama",
       meta: [
         {
           name: "description",

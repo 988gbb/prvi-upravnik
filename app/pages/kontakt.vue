@@ -22,10 +22,10 @@
       </div>
 
       <div class="contact-box">
-        <p><strong>Email:</strong> office@upravnikplus.rs</p>
+        <p><strong>Email:</strong> office@prvi upravnik.rs</p>
         <p><strong>Telefon:</strong> +381 60 000 0000</p>
         <p><strong>Grad:</strong> Beograd</p>
-        <a class="button button-primary" href="mailto:office@upravnikplus.rs">Posalji upit</a>
+        <a class="button button-primary" href="mailto:office@prvi upravnik.rs">Posalji upit</a>
       </div>
     </section>
   </div>
