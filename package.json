@@ -6,8 +6,12 @@
     "build": "nuxt build",
     "dev": "TMPDIR=/tmp nuxt dev",
     "generate": "nuxt generate",
+    "start": "node .output/server/index.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
+  },
+  "engines": {
+    "node": ">=20 <25"
   },
   "dependencies": {
     "nuxt": "^4.4.6",
