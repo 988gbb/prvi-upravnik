@@ -3,11 +3,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "dev": "TMPDIR=/tmp nuxt dev",
     "generate": "nuxt generate",
     "start": "node .output/server/index.mjs",
-    "preview": "nuxt preview",
+    "preview": "npx serve .output/public",
     "postinstall": "nuxt prepare"
   },
   "engines": {
