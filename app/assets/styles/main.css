@@ -42,7 +42,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   opacity: 0.32;
-  background-image: linear-gradient(rgba(111, 89, 45, 0.05) 1px, transparent 1px),
+  background-image:
+    linear-gradient(rgba(111, 89, 45, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(111, 89, 45, 0.05) 1px, transparent 1px);
   background-size: 24px 24px;
   z-index: -1;
@@ -195,7 +196,10 @@ strong {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: color 180ms ease, background-color 220ms ease, transform 200ms ease;
+  transition:
+    color 180ms ease,
+    background-color 220ms ease,
+    transform 200ms ease;
 }
 
 .nav-link:hover {
@@ -207,7 +211,11 @@ strong {
 .nav-link.router-link-active,
 .nav-link.router-link-exact-active {
   color: #fff;
-  background: linear-gradient(120deg, var(--accent-strong) 0%, var(--accent) 100%);
+  background: linear-gradient(
+    120deg,
+    var(--accent-strong) 0%,
+    var(--accent) 100%
+  );
   box-shadow: 0 8px 18px rgba(23, 96, 89, 0.28);
 }
 
@@ -223,13 +231,21 @@ strong {
   padding: 0.7rem 1.1rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease,
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    background-color 220ms ease,
     color 220ms ease;
 }
 
 .top-cta,
 .button-primary {
-  background: linear-gradient(125deg, var(--accent-strong) 0%, var(--accent) 50%, #2e8f87 100%);
+  background: linear-gradient(
+    125deg,
+    var(--accent-strong) 0%,
+    var(--accent) 50%,
+    #2e8f87 100%
+  );
   color: #f7fffd;
   box-shadow: 0 12px 28px rgba(17, 88, 81, 0.32);
 }
@@ -259,7 +275,11 @@ strong {
 .section {
   position: relative;
   border-radius: 22px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.86) 0%, rgba(255, 252, 246, 0.9) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.86) 0%,
+    rgba(255, 252, 246, 0.9) 100%
+  );
   border: 1px solid color-mix(in srgb, var(--line) 80%, white 20%);
   box-shadow: var(--shadow);
   padding: clamp(1.05rem, 2vw, 1.5rem);
@@ -276,7 +296,11 @@ strong {
   right: -85px;
   top: -125px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(211, 235, 232, 0.9) 0%, rgba(211, 235, 232, 0) 70%);
+  background: radial-gradient(
+    circle,
+    rgba(211, 235, 232, 0.9) 0%,
+    rgba(211, 235, 232, 0) 70%
+  );
   pointer-events: none;
 }
 
@@ -348,7 +372,9 @@ strong {
   border-radius: 16px;
   padding: 0.95rem;
   box-shadow: 0 9px 20px rgba(35, 28, 17, 0.08);
-  transition: transform 240ms ease, box-shadow 240ms ease;
+  transition:
+    transform 240ms ease,
+    box-shadow 240ms ease;
 }
 
 .metrics article:hover,
@@ -462,7 +488,11 @@ li {
   margin-top: 1rem;
   border-radius: 22px;
   background:
-    radial-gradient(260px 180px at 14% -5%, rgba(255, 255, 255, 0.14) 0%, transparent 78%),
+    radial-gradient(
+      260px 180px at 14% -5%,
+      rgba(255, 255, 255, 0.14) 0%,
+      transparent 78%
+    ),
     linear-gradient(130deg, #1b4d48 0%, #0d302f 100%);
   border: 1px solid rgba(205, 240, 234, 0.2);
   padding: 1.05rem;
