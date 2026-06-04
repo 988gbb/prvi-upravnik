@@ -69,15 +69,15 @@ watch(
         {{ item.label }}
       </NuxtLink>
 
-      <NuxtLink
+      <a
         class="button button-primary nav-mobile-cta"
-        to="/kontakt"
+        href="tel:+381691148814"
         @click="closeMenu"
       >
         Zakazi poziv
-      </NuxtLink>
+      </a>
     </nav>
 
-    <NuxtLink class="top-cta" to="/kontakt">Zakazi poziv</NuxtLink>
+    <a class="top-cta" href="tel:+381691148814">Zakazi poziv</a>
   </header>
 </template>
