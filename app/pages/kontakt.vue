@@ -27,10 +27,10 @@
       </div>
 
       <div class="contact-box">
-        <p><strong>Email:</strong> office@prvi upravnik.rs</p>
-        <p><strong>Telefon:</strong> +381 60 000 0000</p>
+        <p><strong>Email:</strong> mikicgoranpu@gmail.com</p>
+        <p><strong>Telefon:</strong> +381691148814</p>
         <p><strong>Grad:</strong> Beograd</p>
-        <a class="button button-primary" href="mailto:office@prvi upravnik.rs"
+        <a class="button button-primary" href="mailto:mikicgoranpu@gmail.com"
           >Posalji upit</a
         >
       </div>
